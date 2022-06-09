@@ -1,0 +1,195 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* footer style  */
+
+.footerColor {
+  padding-bottom: 50px;
+  padding-top: 60px;
+  background-color: #f8f7f7;
+} 
+
+/* space between subscribe card and set of images  */
+.content5 {
+  padding-bottom: 150px;
+}
+
+/* Three rounds in footer  */
+
+.roundShape {
+  
+    background-color:red;
+    margin-left: 13px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+  
+}
+
+
+/* display flex between icon and text  */
+
+.flexIconWithText {
+  display: flex;
+  justify-content: center;
+}
+
+ /* iPad screen  */
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+   /* button subscribe  */
+   .btnSub {
+     width: 140px;
+    /* margin-left: 25px;
+    padding: 10px; */
+  }
+
+  .btnGetSart {
+    width: 40%;
+    border-radius: 10px;
+  }
+
+  .handImg {
+    width: 350px;
+    margin-top: 100px;
+  }
+}
+
+.Card {
+ height: 700px;
+ border-radius: 20px;
+}
+
+
+
+/* iPhone 6/7/8 Plus  */
+
+@media screen and (min-width:414px) and (max-width:736px) {
+  .bodyText {
+    margin-left: 15%;
+  }
+}
+.boxLocation {
+  margin-left: 30%;
+  width: 10px;
+}
+
+
+/* iPad Pro  */
+@media screen and (min-width:1024px) {
+ .boxLocation{
+   width: 40%;
+ }
+  .bodyText {
+    margin-left: 13%;
+  }
+
+.btnGetSart {
+  width: 45%;
+  border-radius: 10px;
+}
+.btnSub {
+  width: 150px;
+  height: 50px;
+}
+}
+
+
+/* iPhone 5 screen  */
+
+@media screen and (min-width:320px) and (max-width:568px) {
+  
+  .btnSub {
+    margin-left: -40px;
+    width: 100%;
+
+  }
+  /* text of subscribe  */
+  .contentSub {
+    margin-left: -95px;
+  }
+  
+  .handImg {
+    width: 290px;
+  }
+  .btnGetSart {
+    width: 100%;
+  }
+  .content6 {
+    text-align: center;
+  }
+  .lengIconWithText {
+    margin-left: 90px;
+  }
+  
+}
+
+/* location of icon  */
+
+.personIcon, .serverIcon, .locationIcon{
+  margin-left: 12px;
+ }
+
+ /* Round Background of Icon  */
+ .Icon {
+   font-size: 50px;
+   width: 50px;
+   height: 50px;
+   background-color: rgb(255, 227, 227);
+   
+ 
+ }
+
+ /* card subscribe  */
+.content6 {
+  margin-top: -160px;
+  background-color: white;
+  margin-bottom: 60px;
+}
+
+
+/* Surface Duo screen  */
+@media screen and (min-width:540px) and (max-width:769px) {
+   .lengIconWithText {
+    margin-left: 100px;
+  }
+  .boxLocation {
+    margin-top: 20px;
+    /* width: 0% !important; */
+    margin-left: 34%;
+
+  }
+  .bodyText {
+    margin-left: 25%;
+  }
+  .content6 {
+    text-align: center;
+  }
+  .contentSub {
+    margin-right: 70px;
+  }
+ 
+}
+
+/* location of three box pictures  */
+.boxLocation {
+  margin-top: 20px;
+  width: 40% !important;
+  
+}
+.btnSelect {
+  width: 160px;
+}
+
+
